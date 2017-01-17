@@ -22,7 +22,8 @@ header {
 
 .logo {
 	padding: 3px 10px;
-	border: 5px solid transparent;
+	border-width: 5px;
+	border-style: solid;
 	border-radius: 20%;
 	-moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
 	-webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);

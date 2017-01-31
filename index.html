@@ -11,38 +11,58 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" href="js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+
+		body {
+			background: url(img/office.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            text-align: center;
+		}
+
+		.title {
+			display: block;
+			width: 370px;
+			margin: 20% auto 20px;
+			font-size: 4.8em;
+		}
+
+		.white-background {
+			background-color: rgba(255, 255, 255, 0.8);
+			max-width: 80%;
+			margin: auto;
+			padding: 5%;
+		}
+
+		p {
+			font-size: 2em;
+		}
+
+		button {
+			height: 60px;
+			width: 140px;
+			margin: 15px 5%;
+		}
+
+	</style>
+
 </head>
 <body>
-	<!--wrapper start-->
-	<div class="wrapper" id="wrapper">
 
-	                                             <!-- TOP NAV BAR -->
-		<header class="container-fluid">
-			<div class="row header-row">
-				<h1 class="title">
-				<span class="logo cyan">b</span>
-				<span class="cyan title-text">blu</span><span class="title-text">Orbit</span>
-				</h1>
-				<input type="text" name="searchBar" placeholder="Search &#xF002;" class="searchBar">
-				<i class="fa fa-star-o fa-3x top-icon star" aria-hidden="true"></i>
-				<i class="fa fa-rocket fa-3x top-icon rocket" aria-hidden="true"></i>
-				<i class="fa fa-user-circle fa-3x top-icon profilepic" aria-hidden="true"></i>
-				<i class="fa fa-calendar fa-2x calender-icon" aria-hidden="true"></i>
-			</div>
-		</header>
+	<div class="white-background">
+		<h1 class="title">
+			<span class="logo cyan">b</span>
+			<span class="cyan title-text">blu</span><span class="title-text">Orbit</span>
+		</h1>
 
-												<!-- BOTTOM NAV BAR -->
-		<div class="container-fluid">
-			<div class="bottom-nav row">
-				<i class="fa fa-home fa-2x bottom-icon home" id="selected" aria-hidden="true"></i>
-				<i class="fa fa-rocket fa-2x bottom-icon rocket" aria-hidden="true"></i>
-				<i class="fa fa-search fa-2x bottom-icon search" aria-hidden="true"></i>
-				<i class="fa fa-star-o fa-2x bottom-icon star" aria-hidden="true"></i>
-				<i class="fa fa-user-circle fa-2x bottom-icon profilepic" aria-hidden="true"></i>
-			</div>
-		</div>
+		<p>Companies all over are switching to BluOrbit as their all-in-one HR solution, so they can spend more time focused on the business they're passionate about!</p>
 
+		<a href="learn_more.html"><button class="btn btn-primary">Learn More</button></a>
+		<a href="#"><button class="btn btn-primary">Get Started</button></a>
 	</div>
-	<!--wrapper end-->
+
 </body>
 </html>

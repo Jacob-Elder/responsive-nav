@@ -21,16 +21,28 @@
 		p {
 			max-width: 80%;
 			margin: 10px auto;
+			font-size: 1.7em;
 		}
 
 		h2 {
-			margin-top: 5%;
+			margin-top: 3%;
+			margin-bottom: 25px;
+			text-decoration: underline;
+			font-size: 2.5em;
 		}
 
 		.buttons {
-			position: fixed;
+			position: absolute;
 			right: 0;
 			margin-right: 5%;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		.orbit {
+			color: black;
 		}
 
 		button {
@@ -38,14 +50,26 @@
 			margin-top: 4%;
 		}
 
-		h2 {
-			text-decoration: underline;
-		}
-
 		.demo_pic {
 			width: 80%;
 			max-width: 400px;
 			height: auto;
+		}
+
+		.about_section {
+			background-color: #00b8e6;
+			padding: 2% 0;
+		}
+
+		.connect_section {
+			background-color: #425cf4;
+			padding: 2% 0;
+		}
+
+		footer {
+			height: 50px;
+			background-color: #eff0f2;
+			padding-top: 10px;
 		}
 
 	</style>
@@ -56,8 +80,10 @@
 		<header class="container-fluid">
 			<div class="row header-row">
 				<h1 class="title">
+				<a href="index.html">
 				<span class="logo cyan">b</span>
-				<span class="cyan title-text">blu</span><span class="title-text">Orbit</span>
+				<span class="cyan title-text">blu</span><span class="title-text orbit">Orbit</span>
+				</a>
 				</h1>
 				<div class="buttons">
 					<a href="#"><button class="btn btn-primary login">Login</button></a>
@@ -76,6 +102,10 @@
 			<img class="demo_pic" src="img/social-feed.png" />
 			<p>Empower employees to socialize with each other, keep up-to-date with the latest company news, and truly be a part of the culture that lets your business reach it's full potential. </p>
 		</div>
+
+		<footer>
+			&copy; BluOrbit Inc 2017
+		</footer>
 
 </body>
 </html>

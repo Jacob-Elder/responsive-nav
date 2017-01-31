@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>BluOrbit</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" href="js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+
+		body {
+			text-align: center;
+		}
+
+		.title {
+			display: block;
+			width: 370px;
+			margin: 5% auto 20px;
+			font-size: 4.8em;
+		}
+
+		.choice {
+			height: 360px;
+			width: 360px;
+			background-color: white;
+			display: inline-block;
+			margin: 5% auto;
+			border-radius: 10px;
+			padding-top: 5%;
+		}
+
+		.container {
+			display: flex;
+			align-content: space-between;
+		}
+
+		.header {
+			background-color: #eff0f2;
+			padding: 1px 0;
+			top: 0;
+		}
+
+		img {
+			height: 120px;
+			width: auto;
+		}
+
+		h2 {
+			text-decoration: underline;
+		}
+
+		@media (max-width: 992px) {
+			.container {
+				flex-direction: column;
+			}
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="header">
+		<h1 class="title">
+			<span class="logo cyan">b</span>
+			<span class="cyan title-text">blu</span><span class="title-text">Orbit</span>
+		</h1>
+	</div>
+
+	<div class="container">
+			<div class="choice business">
+			<a href="business_signup.html">
+				<img  src="img/business.png" />
+				<h2>Business</h2>
+				<p>Are you a business looking to create a company profile and experience the future of HR management?</p>
+			</a>
+			</div>
+
+			<div class="choice induvidual">
+			<a href="induvidual_signup.html">
+				<img  src="img/induvidual.png" />
+				<h2>Induvidual</h2>
+				<p>Are you an induvidual looking to keep track of compensation, connect with co-workers, and join the social side of your workplace?</p>
+			</a>
+			</div>
+	</div>
+
+	<p>Already have an account? <a href="login.html">Log in.</a></p>
+
+</body>
+</html>

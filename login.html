@@ -9,8 +9,60 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" href="js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+
+		.buttons {
+			position: absolute;
+			right: 0;
+			margin-right: 5%;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		.orbit {
+			color: black;
+		}
+
+		button {
+			margin-left: 30px;
+			margin-top: 4%;
+		}
+
+	body {
+		text-align: center;
+	}
+		
+	form {
+		background-color: #00b8e6;
+		max-width: 80%;
+		margin: 5% auto;
+		padding: 7% 0;
+	}
+
+	h2 {
+		text-decoration: underline;
+	}
+
+	footer {
+		height: 50px;
+		background-color: #eff0f2;
+		padding-top: 10px;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}	
+
+	</style>
+
 </head>
 <body>
 
@@ -28,7 +80,32 @@
 				</div>
 		</header>
 
-		<h2>Login</h2>
+		<form>
+			<h2>Login</h2>
+			<label>
+				Email:
+				<input class="form-control" type="email" name="email">
+			</label>
+			<br>
+			<label>
+				Password:
+				<input class="form-control" type="password" name="password">
+			</label>
+			<br>
+			<input type="submit" name="submit" value="Submit" id="enter">
+		</form>
+
+		<footer>
+			&copy; BluOrbit Inc 2017
+		</footer>
+
+		<script type="text/javascript">
+			$("#enter").on('click', function(e){
+				e.preventDefault();
+				console.log("clicked!");
+				window.location.href = "social.html";
+			})
+		</script>
 
 </body>
 </html>
